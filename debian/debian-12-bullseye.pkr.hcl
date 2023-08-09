@@ -66,7 +66,6 @@ source "proxmox-iso" "debian-12" {
     type = "virtio"
   }
 
-
   # Settings for ISO file
   iso_file = "local:iso/debian-12.1.0-amd64-netinst.iso"
   iso_storage_pool = "local"

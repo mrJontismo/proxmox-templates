@@ -84,7 +84,7 @@ source "proxmox-iso" "debian-12" {
 
   # System settings
   template_description = "Debian 12 cloud-init template. Built on ${formatdate("YYYY-MM-DD hh:mm:ss ZZZ", timestamp())}"
-  vm_name = "debian-12"
+  vm_name = "debian-12.1.0"
   node = var.proxmox_node
   scsi_controller = "virtio-scsi-single"
   memory = var.memory

@@ -1,5 +1,5 @@
 # Proxmox templates
-Ttemplates to be built with Packer for Proxmox. Remember to add file `variables.pkrvars.hcl` into the root of this repo.
+Templates to be built with Packer for Proxmox. Remember to add file `variables.pkrvars.hcl` into the root of this repo.
 The file should contain: 
 ```text
 proxmox_api_url = "your-proxmox-host"
